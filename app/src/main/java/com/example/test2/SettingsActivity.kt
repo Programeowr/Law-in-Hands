@@ -24,7 +24,6 @@ class SettingsActivity : AppCompatActivity() {
         val hBtn = findViewById<ImageView>(R.id.pHomeIcon)
         val sBtn = findViewById<ImageView>(R.id.pSettingsIcon)
         val bBtn = findViewById<ImageView>(R.id.pBack)
-        val notBtn = findViewById<Button>(R.id.sNotifButton)
         val appBtn = findViewById<Button>(R.id.sAppButton)
         val pwdBtn = findViewById<Button>(R.id.sChangePassword)
 
@@ -97,14 +96,6 @@ class SettingsActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             }
-        }
-
-        notBtn.setOnClickListener {
-            val intent = Intent(this, NotificationActivity::class.java)
-            intent.putExtra("UID", userId)
-            intent.putExtra("Back", 4)
-            startActivity(intent)
-            finish()
         }
 
         appBtn.setOnClickListener {

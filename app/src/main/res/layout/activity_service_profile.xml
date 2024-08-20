@@ -151,9 +151,12 @@
             android:id="@+id/pSettingsIcon"
             android:layout_width="45dp"
             android:layout_height="45dp"
+            android:layout_marginEnd="116dp"
+            android:layout_marginBottom="44dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <<<<<<< HEAD
             app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -198,7 +201,7 @@
             app:srcCompat="@drawable/home2" />
 
         <TextView
-            android:id="@+id/phome"
+            android:id="@+id/pHome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Home"

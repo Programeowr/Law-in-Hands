@@ -36,23 +36,16 @@ class SolvedComplaintsActivity : AppCompatActivity() {
         val userId = intent.getStringExtra("UID")?:""
         val check = intent.getIntExtra("Back", 0)
 
-        val listView = findViewById<ListView>(R.id.solListview)
-        val complaintList = ArrayList<String>()
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, complaintList)
-        listView.adapter = adapter
-
         val db = FirebaseFirestore.getInstance()
         db.collection("Complaints").document(userId).collection("Complaint").get()
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    complaintList.clear()
                     val result = task.result
                     if(result != null) {
                         for (document in result.documents) {
                             if (document != null && document.exists()) {
                                 val complaint = document.toObject(Complaint::class.java)
                                 if(complaint != null) {
-                                    complaintList.add(complaint.title)
                                     if(complaint.title.isEmpty()){
                                         Log.d("FileComplaintActivity", "Empty")
                                     } else {

@@ -83,9 +83,8 @@ class ServiceProfileActivity : AppCompatActivity() {
         }
 
         sBtn.setOnClickListener {
-            val intent = Intent(this, SettingsActivity::class.java)
+            val intent = Intent(this, ServicesSettingsActivity::class.java)
             intent.putExtra("UID", userId)
-            intent.putExtra("Back", 2)
             startActivity(intent)
             finish()
         }
