@@ -102,26 +102,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.175" />
 
-    <Button
-        android:id="@+id/LSos"
-        android:layout_width="105dp"
-        android:layout_height="95dp"
-        android:backgroundTint="#FF0000"
-        android:fontFamily="@font/adlam_display"
-        android:text="SOS"
-        android:textColor="#FFFFFF"
-        android:textColorHighlight="#F80000"
-        android:textColorHint="#E01809"
-        android:textColorLink="#FF0000"
-        android:textSize="26sp"
-        app:cornerRadius="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.980"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.005" />
-
     <TextView
         android:id="@+id/LForgot"
         android:layout_width="wrap_content"

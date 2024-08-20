@@ -38,7 +38,8 @@ class ProfileActivity : AppCompatActivity() {
         setContentView(R.layout.activity_profile)
         window.setFlags(
             WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN)
+            WindowManager.LayoutParams.FLAG_FULLSCREEN
+        )
 
         val tvMail = findViewById<TextView>(R.id.pGmail)
         val tvMobile = findViewById<TextView>(R.id.pMobile)
@@ -52,7 +53,7 @@ class ProfileActivity : AppCompatActivity() {
         val bBtn = findViewById<ImageView>(R.id.pBack)
         val eBtn = findViewById<Button>(R.id.LSos)
 
-        val userId = intent.getStringExtra("UID")?:""
+        val userId = intent.getStringExtra("UID") ?: ""
         val check = intent.getIntExtra("Back", 0)
 
         FirebaseFirestore.getInstance().collection("Users").document(userId).get()
@@ -67,9 +68,6 @@ class ProfileActivity : AppCompatActivity() {
                             tvMobile.text = "Mobile :         ${userData.phone}"
                             tvGender.text = "Gender :         ${userData.gender}"
 
-                            val notificationTitle = "Profile Loaded"
-                            val notificationMessage = "Your profile data has been loaded successfully"
-                            showNotification(this, notificationTitle, notificationMessage)
                         } else {
                             Log.d("ProfileActivity", "No such document")
                         }
@@ -114,31 +112,27 @@ class ProfileActivity : AppCompatActivity() {
         }
 
         bBtn.setOnClickListener {
-            if(check == 1){
+            if (check == 1) {
                 val intent = Intent(this, HomeActivity::class.java)
                 intent.putExtra("UID", userId)
                 startActivity(intent)
                 finish()
-            }
-            else if(check == 2){
+            } else if (check == 2) {
                 val intent = Intent(this, ProfileActivity::class.java)
                 intent.putExtra("UID", userId)
                 startActivity(intent)
                 finish()
-            }
-            else if(check == 3){
+            } else if (check == 3) {
                 val intent = Intent(this, SolvedComplaintsActivity::class.java)
                 intent.putExtra("UID", userId)
                 startActivity(intent)
                 finish()
-            }
-            else if(check == 4){
+            } else if (check == 4) {
                 val intent = Intent(this, SettingsActivity::class.java)
                 intent.putExtra("UID", userId)
                 startActivity(intent)
                 finish()
-            }
-            else{
+            } else {
                 val intent = Intent(this, EmergencyLoginActivity::class.java)
                 intent.putExtra("UID", userId)
                 startActivity(intent)
@@ -146,38 +140,13 @@ class ProfileActivity : AppCompatActivity() {
             }
         }
 
-        eBtn.setOnClickListener{
+        eBtn.setOnClickListener {
             val intent = Intent(this, EmergencyLoginActivity::class.java)
             intent.putExtra("UID", userId)
             intent.putExtra("Back", 2)
             startActivity(intent)
             finish()
         }
-    }
-
-    private fun showNotification(context: Context, title: String, message: String) {
-        val notificationManager = context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val notificationChannel = NotificationChannel("my_channel", "My Channel", NotificationManager.IMPORTANCE_DEFAULT)
-            notificationChannel.description = "My notification channel"
-            notificationManager.createNotificationChannel(notificationChannel)
-        }
-
-        val notificationIntent = Intent(context, ProfileActivity::class.java)
-        val pendingIntent = PendingIntent.getActivity(context, 0, notificationIntent, PendingIntent.FLAG_IMMUTABLE)
-
-        val notificationBuilder = NotificationCompat.Builder(context, "my_channel")
-
-        notificationBuilder
-            .setSmallIcon(R.drawable.ic_launcher_foreground)
-            .setContentTitle(title)
-            .setContentText(message)
-            .setContentIntent(pendingIntent)
-            .setAutoCancel(true)
-
-        val notification = notificationBuilder.build()
-        notificationManager.notify(12345, notification)
     }
 }
 

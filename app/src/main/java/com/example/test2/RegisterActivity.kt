@@ -19,7 +19,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class RegisterActivity : AppCompatActivity() {
 
-    // private var database: DatabaseReference = FirebaseDatabase.getInstance("https://test2-819dc-default-rtdb.asia-southeast1.firebasedatabase.app/").getReference("Users")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)

@@ -44,7 +44,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/manrope_medium"
-        android:text="Phone:+91 8374364434"
+        android:text="Phone:+91 9392864240"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.191" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/chatButton"
         android:layout_width="200dp"
         android:layout_height="60dp"
         android:backgroundTint="#050505"
@@ -69,7 +69,7 @@
         app:layout_constraintVertical_bias="0.573" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/pBack"
         android:layout_width="48dp"
         android:layout_height="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -79,18 +79,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.086"
         app:srcCompat="@drawable/backicon" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"
-        app:srcCompat="@drawable/wtsapp" />
 
     <TextView
         android:id="@+id/textView16"
@@ -125,7 +113,7 @@ as soon as possible"
         app:layout_constraintVertical_bias="0.678" />
 
     <ImageView
-        android:id="@+id/phomeicon"
+        android:id="@+id/pHomeIcon"
         android:layout_width="61dp"
         android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -150,22 +138,9 @@ as soon as possible"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.995"/>
 
-    <TextView
-        android:id="@+id/pprofilebottom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Profile"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998"/>
-
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/pComplaintIcon"
         android:layout_width="51dp"
         android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -190,7 +165,7 @@ as soon as possible"
         app:layout_constraintVertical_bias="0.995"/>
 
     <ImageView
-        android:id="@+id/pseticon"
+        android:id="@+id/pSettingsIcon"
         android:layout_width="51dp"
         android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -215,7 +190,7 @@ as soon as possible"
         app:layout_constraintVertical_bias="0.995"/>
 
     <ImageView
-        android:id="@+id/pprofileicon"
+        android:id="@+id/pProfileIcon"
         android:layout_width="57dp"
         android:layout_height="51dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -224,7 +199,7 @@ as soon as possible"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.954"
-        app:srcCompat="@drawable/UserProfile" />
+        app:srcCompat="@drawable/userprofile" />
 
     <TextView
         android:id="@+id/pprofilebottom"
