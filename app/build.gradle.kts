@@ -44,6 +44,7 @@ android {
 
 dependencies {
 
+    implementation("org.osmodroid:osmdroid-android:6.1.14")
     implementation(libs.google.firebase.crashlytics)
     implementation(libs.google.firebase.database)
     implementation(libs.google.firebase.auth)
