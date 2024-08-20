@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".ServiceProfileActivity">
+    tools:context=".ProfileActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/main"
@@ -92,17 +91,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.625" />
 
-<<<<<<< HEAD
         <ImageView
             android:id="@+id/pHomeIcon"
             android:layout_width="45dp"
             android:layout_height="45dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.308"
+            app:layout_constraintHorizontal_bias="0.245"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.976"
+            app:layout_constraintVertical_bias="0.97"
             app:srcCompat="@drawable/home2" />
 
         <TextView
@@ -113,13 +111,11 @@
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.302"
+            app:layout_constraintHorizontal_bias="0.241"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.995" />
 
-=======
->>>>>>> 14ea8c6ab0a0ada0a485fda07e1245091d65ccdf
         <TextView
             android:id="@+id/pProfile"
             android:layout_width="wrap_content"
@@ -154,19 +150,18 @@
             android:layout_marginEnd="116dp"
             android:layout_marginBottom="44dp"
             app:layout_constraintBottom_toBottomOf="parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_service_profile.xml
             app:layout_constraintEnd_toEndOf="parent" />
 
         <<<<<<< HEAD
             app:layout_constraintHorizontal_bias="0.644"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.976"
 =======
-            app:layout_constraintHorizontal_bias="0.628"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.696"
+>>>>>>> d9b0e5eb6a172184d47c826d267d8d637c8996f3:app/src/main/res/layout/activity_service_profile2.xml
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.967"
->>>>>>> 14ea8c6ab0a0ada0a485fda07e1245091d65ccdf
+            app:layout_constraintVertical_bias="0.97"
             app:srcCompat="@drawable/settings" />
 
         <TextView
@@ -177,6 +172,7 @@
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD:app/src/main/res/layout/activity_service_profile.xml
 <<<<<<< HEAD
             app:layout_constraintHorizontal_bias="0.655"
             app:layout_constraintStart_toStartOf="parent"
@@ -209,20 +205,21 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.3"
+=======
+            app:layout_constraintHorizontal_bias="0.708"
+>>>>>>> d9b0e5eb6a172184d47c826d267d8d637c8996f3:app/src/main/res/layout/activity_service_profile2.xml
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.995" />
->>>>>>> 14ea8c6ab0a0ada0a485fda07e1245091d65ccdf
-
 
         <TextView
-            android:id="@+id/pService"
+            android:id="@+id/pGender"
             android:layout_width="400dp"
             android:layout_height="60dp"
             android:background="@drawable/border"
             android:fontFamily="@font/manrope_medium"
 
-            android:text="Service      :"
+            android:text="Service     :"
             android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -231,6 +228,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.761" />
+
+        <Button
+            android:id="@+id/LSos"
+            android:layout_width="105dp"
+            android:layout_height="95dp"
+            android:backgroundTint="#FF0000"
+            android:fontFamily="@font/adlam_display"
+            android:text="SOS"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="#F80000"
+            android:textColorHint="#E01809"
+            android:textColorLink="#FF0000"
+            android:textSize="26sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.980"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.005" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
