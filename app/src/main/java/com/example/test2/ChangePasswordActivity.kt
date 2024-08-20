@@ -46,6 +46,7 @@ class ChangePasswordActivity : AppCompatActivity() {
                             }
                         } else {
                             Toast.makeText(this, "Old password is incorrect", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(this, "Old password is incorrect", Toast.LENGTH_SHORT).show()
                         }
                     }
             }
