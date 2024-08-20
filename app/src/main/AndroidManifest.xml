@@ -21,6 +21,9 @@
         android:theme="@style/Theme.Test2"
         tools:targetApi="31">
         <activity
+            android:name=".ServicesSettingsActivity"
+            android:exported="false" />
+        <activity
             android:name=".service_settings"
             android:exported="false" />
         <activity
