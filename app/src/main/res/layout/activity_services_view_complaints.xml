@@ -8,29 +8,83 @@
     android:fitsSystemWindows="true"
     android:background="@drawable/no2"
     tools:context=".ServiceHomeActivity">
-
-
-    <Button
-        android:id="@+id/fReset"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="Profile"
+        android:background="@drawable/border"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.07" />
+        app:layout_constraintVertical_bias="0.408" />
+
+    <TextView
+        android:id="@+id/textVie"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <TextView
+        android:id="@+id/texView12"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/border"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <TextView
+        android:id="@+id/textVie15"
+        android:layout_width="280dp"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.688" />
+
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/lexend_bold"
-        android:text="HOME"
+        android:text="View Complaints"
         android:textColor="@color/black"
-        android:textSize="44sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -51,25 +105,10 @@
         app:srcCompat="@drawable/backicon" />
 
 
-    <Button
-        android:id="@+id/hViewCom"
-        android:layout_width="380dp"
-        android:layout_height="85dp"
-        android:backgroundTint="#101010"
-        android:text="VIew complaints"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.517" />
-
     <ImageView
         android:id="@+id/pSettingsIcon"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
+        android:layout_width="51dp"
+        android:layout_height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.68"
@@ -102,7 +141,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.956"
         app:srcCompat="@drawable/home2" />
-
     <TextView
         android:id="@+id/phome"
         android:layout_width="wrap_content"
