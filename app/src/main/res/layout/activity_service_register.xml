@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/no2"
-    tools:context=".RegisterActivity">
+    tools:context=".ServiceRegisterActivity">
 
 
     <TextView
@@ -144,14 +144,14 @@
         android:id="@+id/RGender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/border"
         android:ems="10"
-        android:hint="Services"
+        android:hint="Gender"
         android:inputType="text"
         android:textColor="@color/black"
         android:textColorHint="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/border"
 
         app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
