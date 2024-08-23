@@ -238,9 +238,9 @@ By clicking this button, a call is made to fire Emergency services.
 
 SERVICE admin Login Page
 
-Email Input Field: This takes the user input for their email.
+Email Input Field: This takes the admin input for their email.
 
-Password Input Field: This takes the user input for their password.
+Password Input Field: This takes the admin input for their password.
 
 Forgot Password: By clicking on this text, forgot password page emerges.
 
