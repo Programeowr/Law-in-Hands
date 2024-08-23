@@ -1,6 +1,9 @@
 ![user_admin](https://github.com/user-attachments/assets/1c742ca6-8c87-4079-b9ea-a8a9e83c2ec2)
 User button: By clicking on this button it considers you as an user and u will be directed to a login cum register page for user.
-Service button:This button is used by govt service officials to get their login/ register 
+
+Service button:This button is used by govt service officials to get their login/ register.
+
+
 ![WELCOME](https://github.com/user-attachments/assets/8f6ce408-3181-4ca8-97c3-bf9c62616285)
 User Login Page
 
@@ -20,9 +23,11 @@ SOS Button : By clicking this Emergency page gets opend which consists emergency
 
 
 Forgot password page
-If the user forgets the password he/she can click on the forgot password? option in login ppage and the forgot password page emeges.
+If the user forgets the password he/she can click on the forgot password? option in login ppage and the forgot password page emerges.
 Here,
+
 Email input field:
-Here the user needs to write his email 
+Here the user needs to write his email.
+
 Reset button :
 After entering the email id the user clicks on the reset button this sends the email which has a link to change the password. 
