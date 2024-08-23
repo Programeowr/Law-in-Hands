@@ -19,7 +19,8 @@ Login Button: By clicking this button, firebase will check if the typed email an
 
 Register Button: By clicking this button, register page emerges.
 
-SOS Button : By clicking this Emergency page gets opend which consists emergency phone numbers. 
+SOS Button : By clicking this Emergency page gets opend which consists emergency phone numbers.
+This button is present in almost all pages keeping the importance of it in mind.
 
 ![forgot password](https://github.com/user-attachments/assets/33fe22e0-4aaf-4a29-8404-52341bce5a00)
 
@@ -38,7 +39,7 @@ After entering the email id the user clicks on the reset button this sends the e
 
 Register page
 
-If the user new 
+If the user is new 
 After the user clicks on the register button, he is taken to Register Page
 
 User Registeration Page
@@ -59,6 +60,9 @@ Confirm Password Input Field: This takes the user input for the confirm password
 Gender Input Field: This takes the user input for their gender.
 
 Register Button: By clicking on this button, the firebase stores the data and creates a new user with the given email and password. This takes you to user login page to login again.
+
+Back navigation button:
+By clicking this button the user gets back to the previous page.
 
 ![home](https://github.com/user-attachments/assets/4137e4d3-b595-4d05-a80b-85c0308deefb)
 
@@ -84,7 +88,18 @@ Profile button:This button takes the user to profile page.
 
 Complaints button: This button is used to view users' complaints.
 
-Settings buttoM: y clicking this button settings page emerges.
+Settings buttom: By clicking this button settings page emerges.
+
+![profile](https://github.com/user-attachments/assets/06c9b6cf-6335-4e79-ab37-629e89ec440a)
+
+
+PROFILE PAGE:
+
+Here the user profile gets displayed.
+with the following details
+Name, email, mobile , address, gender
+
+
 
 
 
