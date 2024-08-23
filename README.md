@@ -1,4 +1,23 @@
+
+# LAW IN HANDS
+# UG2 Team 8
+
+To improve transparency and accountability 
+
+If we have an app for all the complaints loaded,  to point out injustice and seek help  it would help us work and function more efficiently as a society. 
+
+
+Everyone has access to the app. We can access all the public services like hospitals, police station , fire station etc through this app. 
+
+Like we can go and lodge complaint,  book as service Like ambulance, or report injustice to people etc, and every case and it's status will be transparent ro public along with government. So that at any stage anyone can offer help or support 
+
+Or question on any action pending from Government 
+
+This would increase accessibility and transparency and also could help reduce negligence and corruption.
+
+
 ![user_admin](https://github.com/user-attachments/assets/1c742ca6-8c87-4079-b9ea-a8a9e83c2ec2)
+
 
 User button: By clicking on this button it considers you as an user and u will be directed to a login cum register page for user.
 
@@ -252,6 +271,7 @@ Confirm Password Input Field: This takes the admin input for the confirm passwor
 Service Input Field: This takes the admin input for their service.
 
 Register Button: By clicking on this button, the firebase stores the data and creates a new user with the given email and password. This takes you to user login page to login again.
+
 
 
 
