@@ -213,6 +213,47 @@ Fire Brigade Button:
 By clicking this button, a call is made to fire Emergency services.
 
 
+![WELCOME](https://github.com/user-attachments/assets/e895e9dc-f0ff-49a8-bec9-15d69ce2a138)
+
+
+
+SERVICE admin Login Page
+
+Email Input Field: This takes the user input for their email.
+
+Password Input Field: This takes the user input for their password.
+
+Forgot Password: By clicking on this text, forgot password page emerges.
+
+Login Button: By clicking this button, firebase will check if the typed email and password exist in the database. If they exist, they are taken to the home page.
+
+Register Button: By clicking this button, register page emerges.
+
+SOS Button : By clicking this Emergency page gets opend which consists emergency phone numbers.
+This button is present in almost all pages keeping the importance of it in mind.
+
+
+![register](https://github.com/user-attachments/assets/9f752534-886f-462d-afa2-1bf4bd2478da)
+
+Admin Registeration Page
+
+This is the page where the admin registers for the first time.
+
+Name Input Field: This takes the admin input for their full name.
+
+Mobile Input Field: This takes the admin input for their mobile number.
+
+Email Input Field: This takes the admin input for their email.
+
+Password Input Field: This takes the admin input for their password.
+
+Confirm Password Input Field: This takes the admin input for the confirm password.
+
+Service Input Field: This takes the admin input for their service.
+
+Register Button: By clicking on this button, the firebase stores the data and creates a new user with the given email and password. This takes you to user login page to login again.
+
+
 
 
 
