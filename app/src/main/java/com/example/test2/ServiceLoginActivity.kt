@@ -59,7 +59,7 @@ class ServiceLoginActivity : AppCompatActivity() {
                     val user = auth.currentUser
                     val userId = user?.uid
 
-                    val intent = Intent(this, HomeActivity::class.java)
+                    val intent = Intent(this, ServiceHomeActivity::class.java)
                     intent.putExtra("UID", userId)
                     startActivity(intent)
                     finish()
