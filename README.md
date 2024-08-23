@@ -1,10 +1,12 @@
 ![user_admin](https://github.com/user-attachments/assets/1c742ca6-8c87-4079-b9ea-a8a9e83c2ec2)
+
 User button: By clicking on this button it considers you as an user and u will be directed to a login cum register page for user.
 
 Service button:This button is used by govt service officials to get their login/ register.
 
 
 ![WELCOME](https://github.com/user-attachments/assets/8f6ce408-3181-4ca8-97c3-bf9c62616285)
+
 User Login Page
 
 Email Input Field: This takes the user input for their email.
