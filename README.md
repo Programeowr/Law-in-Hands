@@ -151,7 +151,7 @@ Public Checkbox:
 This is a sort of switch. By clicking this user can make their complaint public which means everyone else using the app can see them,else they remain private which means no one else other than the user can see the complaint that they had filed.
 
 Submit Button:
-By clicking this button,they will fix the new password that they had set.
+By clicking this button,the complaint gets filed 
 
 ![raise_](https://github.com/user-attachments/assets/cc6a8d3b-31fa-42de-8679-d0bcca79f4a3)
 
