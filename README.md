@@ -97,7 +97,75 @@ PROFILE PAGE:
 
 Here the user profile gets displayed.
 with the following details
-Name, email, mobile , address, gender
+Name, email, mobile , address, gender.
+
+![complaints](https://github.com/user-attachments/assets/82bd4af1-0341-4330-810c-1d228970314c)
+
+
+COMPLAINTS:
+
+Solved and Unsolved Cases List
+
+This page consists a list of cases in solved and unsolved categories.
+
+Solved Button:
+By clicking the text "Solved" people can check the solved cases that they had till date.
+
+Unsolved Button:
+By clicking the text "Unsolved" people can check the unsolved cases that they had till date
+
+![file complaint](https://github.com/user-attachments/assets/e95d54eb-1b5a-4166-8dec-33e25b541aab)
+
+
+File a complaint:
+
+Services Dropdown Field:
+This is the field where people can select their preferred services like health,police,etc..
+
+Incident Title Input Field:
+This field takes the input of the name of the problem/incident that the user wish to submit in the field that they had choosen.
+
+Description of The Title Field:
+This field takes the input from the user which gives a detailed description of their problem/incident.
+
+Public Checkbox:
+This is a sort of switch. By clicking this user can make their complaint public which means everyone else using the app can see them,else they remain private which means no one else other than the user can see the complaint that they had filed.
+
+Submit Button:
+By clicking this button,they will fix the new password that they had set.
+
+![raise_](https://github.com/user-attachments/assets/cc6a8d3b-31fa-42de-8679-d0bcca79f4a3)
+
+
+Raise a query
+
+Write Your Query Input Field:
+This takes the user input in the form of a short description. If the user have any sort of queries regarding any government services or government benifits they can ask it directly to the government official.
+
+Submit Button:
+By clicking this button, the query they wish to submit will be submitted
+
+![settingd](https://github.com/user-attachments/assets/0dfd02fa-17e2-4bb7-a816-ce3ebecbc643)
+
+
+Settings
+
+Location Button:
+By clicking this button, user 
+
+App Feedback Button:
+By clicking this button, user will be navigated to a page where they can give feedback to the app.
+
+Chats and Calls Button:
+By clicking this button, user will be directed to a whatsapp chat to concerned number that they choose.
+
+Change Password Button:
+By clicking this button, user will be directed to a page where they can change their existing password.
+
+Logout Button:
+By clicking this button, user will be logged out of the account they are currently in and will be sent into a home page.
+
+
 
 
 
