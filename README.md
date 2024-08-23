@@ -273,6 +273,47 @@ Service Input Field: This takes the admin input for their service.
 Register Button: By clicking on this button, the firebase stores the data and creates a new user with the given email and password. This takes you to user login page to login again.
 
 
+# CONTRIBUTION
+
+CS23B053 Sai Akhil :
+-->An important contributor to the back-end development of our project(Firebase). 
+-->Implementing key features that were necessary for the project.
+-->Fixed many bugs.
+-->Teaching team members about both the front end and back end, in addition to his technical contributions.
+-->Insightful advice and direction that made sure the team was cohesive and effectively pursuing its objective.
+
+CS23B015 Rishikesh:
+--> Made significant contributions to our project's front-end(>55%), design aspect of front end(UI) and back-end development. 
+-->Front end - Android Studio, Kotlin and Backend-Firebase.
+-->Taught Git and github to team members.
+-->Proposing the idea of the app.
+
+CS23B018 Harshith:
+-->Conributed a part of backend development(Firebase).
+-->Teaching team members about APIs and Openstreet maps.
+
+CS23B021 Pranathi:
+-->Played a major role in creating prototypes of frontend.
+-->Made reference pages with Figma.
+
+CS23B046 Surendra:
+-->Made some layouts in front-end pf our project.
+-->Was in a charge of composing the README file.
+
+CS23B040 Rohan:
+-->Helped a lot in advancement of the front-end of our project.
+-->Played a key role in our pitch and made presentation.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
