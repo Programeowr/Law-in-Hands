@@ -170,7 +170,7 @@ By clicking this button, the query they wish to submit will be submitted
 Settings
 
 Location Button:
-By clicking this button, user 
+By clicking this button, user gets to know his location.
 
 App Feedback Button:
 By clicking this button, user will be navigated to a page where they can give feedback to the app.
