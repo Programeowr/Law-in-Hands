@@ -33,3 +33,64 @@ Here the user needs to write his email.
 
 Reset button :
 After entering the email id the user clicks on the reset button this sends the email which has a link to change the password. 
+
+![register](https://github.com/user-attachments/assets/a358ac60-aa21-48c4-9ed3-dfcabd1bcccf)
+
+Register page
+
+If the user new 
+After the user clicks on the register button, he is taken to Register Page
+
+User Registeration Page
+
+This is the page where the user registers for the first time.
+
+Name Input Field: This takes the user input for their full name.
+
+Mobile Input Field: This takes the user input for their mobile number.
+
+Email Input Field: This takes the user input for their email.
+
+Password Input Field: This takes the user input for their password.
+
+Confirm Password Input Field: This takes the user input for the confirm password.
+
+
+Gender Input Field: This takes the user input for their gender.
+
+Register Button: By clicking on this button, the firebase stores the data and creates a new user with the given email and password. This takes you to user login page to login again.
+
+![home](https://github.com/user-attachments/assets/4137e4d3-b595-4d05-a80b-85c0308deefb)
+
+HOME PAGE
+
+Here there are three options:
+1.File Complaint.
+2.Complaints near me.
+3.Raise queries
+
+1.File complaint:
+By clicking on this option the file  new complaint page emerges where the user can file the complaint.
+
+2.Complaints near me:
+This option helps user to see complaints raised by other people near the user. Because of time limitations and unexpected modifications, we couldn't execute this as originally intended.
+
+3.Raise queries
+By clicking this option the raise queries page gets displayed where user can raise a query to govt regarding unsolved complaints etc.
+
+Home button: This button enables the user to go to the home page.
+
+Profile button:This button takes the user to profile page.
+
+Complaints button: This button is used to view users' complaints.
+
+Settings buttoM: y clicking this button settings page emerges.
+
+
+
+
+
+
+
+
+
