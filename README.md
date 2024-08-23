@@ -165,6 +165,52 @@ By clicking this button, user will be directed to a page where they can change t
 Logout Button:
 By clicking this button, user will be logged out of the account they are currently in and will be sent into a home page.
 
+![change_](https://github.com/user-attachments/assets/434a6642-5499-430f-b6c8-971ab60eb538)
+
+
+Change password 
+Old Password Input Field : This takes the user input for their old password
+
+Entering their New Password
+New Password Input Field:
+This takes the user input for their new password
+
+Confirmation of New Password Input Field:
+This takes the user input to confirm the new password that they had set
+
+Submit Button:
+By clicking this button,they will fix the new password that they had set.
+
+
+![feed](https://github.com/user-attachments/assets/188eb593-c24e-4228-8d89-0319d28395cd)
+
+Feedback
+
+Please Rate Us Section:
+This section takes the user input regarding how the app functions in the form of rating. It ranges from one to five stars.
+
+Comments Section:
+This section takes the comments and Feedback from user regarding the app functioning and experiences as a short description.
+
+Submit Response Button:
+By clicking this button, user can submit the response that they had filled.
+
+
+EMERGENCY PAGE
+
+![emergency](https://github.com/user-attachments/assets/b0c1b4da-8667-4a43-81f4-a6436394be7a)
+
+
+Emergency contacts
+
+Police Button:
+By clicking this button, a call is made to necessary police personnel.
+
+Ambulance Button:
+By clicking this button, a call is made to ambulance services.
+
+Fire Brigade Button:
+By clicking this button, a call is made to fire Emergency services.
 
 
 
